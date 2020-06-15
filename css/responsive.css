@@ -1,0 +1,30 @@
+/*
+TEBLET LAYOUT
+*/
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    .wrapper{width:98%;}
+    .manu_section li a {padding: 15px 16px;}
+    #slider-area li { height: 50vh;}
+    .contaent_area {padding:0;}
+    .contaent_area .left_content {width: 100%;}
+    .contaent_area .left_content h3 { text-align: center;}
+    .contaent_area .righy_content {width: 100%;}
+    .contaent_area .righy_content img {width: 100%;height: auto;margin: 20px auto;}
+    .service_content {width: 210px;float: left;padding: 60px 59px 20px 100px;}
+
+}
+
+
+
+/*
+MOBILE LAYOUT
+*/
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .slicknav_menu{display: block; background: #97455f;} 
+    .social_area ul{margin-left:50px;}
+    .search_area{display: none;}
+    .manu_section {display: none;}
+    .contact_area input[type="text"], [type="email"] {width: 88%;}
+    .contact_area textarea {width: 89%;}
+       
+}
